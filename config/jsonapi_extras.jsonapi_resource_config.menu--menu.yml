@@ -1,13 +1,13 @@
-uuid: 36bb9508-460d-4255-9411-3f0e70bb850e
+uuid: 320736a2-97f9-4642-a530-6c143fb05d2e
 langcode: en
 status: true
 dependencies:
   module:
     - system
-id: action--action
+id: menu--menu
 disabled: true
-path: action/action
-resourceType: action--action
+path: menu/menu
+resourceType: menu--menu
 resourceFields:
   uuid:
     fieldName: uuid
@@ -57,21 +57,15 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
-  type:
-    fieldName: type
-    publicName: type
+  description:
+    fieldName: description
+    publicName: description
     enhancer:
       id: ''
     disabled: false
-  plugin:
-    fieldName: plugin
-    publicName: plugin
-    enhancer:
-      id: ''
-    disabled: false
-  configuration:
-    fieldName: configuration
-    publicName: configuration
+  locked:
+    fieldName: locked
+    publicName: locked
     enhancer:
       id: ''
     disabled: false

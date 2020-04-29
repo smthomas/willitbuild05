@@ -1,13 +1,13 @@
-uuid: 36bb9508-460d-4255-9411-3f0e70bb850e
+uuid: 438a7ac2-2f5e-4733-9ab6-37096547e2bf
 langcode: en
 status: true
 dependencies:
   module:
-    - system
-id: action--action
+    - node
+id: node_type--node_type
 disabled: true
-path: action/action
-resourceType: action--action
+path: node_type/node_type
+resourceType: node_type--node_type
 resourceFields:
   uuid:
     fieldName: uuid
@@ -45,15 +45,9 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
-  id:
-    fieldName: id
-    publicName: id
-    enhancer:
-      id: ''
-    disabled: false
-  label:
-    fieldName: label
-    publicName: label
+  name:
+    fieldName: name
+    publicName: name
     enhancer:
       id: ''
     disabled: false
@@ -63,15 +57,33 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
-  plugin:
-    fieldName: plugin
-    publicName: plugin
+  description:
+    fieldName: description
+    publicName: description
     enhancer:
       id: ''
     disabled: false
-  configuration:
-    fieldName: configuration
-    publicName: configuration
+  help:
+    fieldName: help
+    publicName: help
+    enhancer:
+      id: ''
+    disabled: false
+  new_revision:
+    fieldName: new_revision
+    publicName: new_revision
+    enhancer:
+      id: ''
+    disabled: false
+  preview_mode:
+    fieldName: preview_mode
+    publicName: preview_mode
+    enhancer:
+      id: ''
+    disabled: false
+  display_submitted:
+    fieldName: display_submitted
+    publicName: display_submitted
     enhancer:
       id: ''
     disabled: false

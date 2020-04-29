@@ -1,13 +1,13 @@
-uuid: cf0fa314-75a9-4a82-8528-863315a1d08d
+uuid: bc4f1b82-23e0-445e-a010-54e8446bcbd6
 langcode: en
 status: true
 dependencies:
-  config:
-    - block_content.type.basic
-id: block_content--basic
+  module:
+    - menu_link_content
+id: menu_link_content--menu_link_content
 disabled: true
-path: block_content/basic
-resourceType: block_content--basic
+path: menu_link_content/menu_link_content
+resourceType: menu_link_content--menu_link_content
 resourceFields:
   id:
     fieldName: id
@@ -33,9 +33,9 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
-  type:
-    fieldName: type
-    publicName: type
+  bundle:
+    fieldName: bundle
+    publicName: bundle
     enhancer:
       id: ''
     disabled: false
@@ -51,33 +51,75 @@ resourceFields:
     enhancer:
       id: ''
     disabled: false
-  revision_log:
-    fieldName: revision_log
-    publicName: revision_log
+  revision_log_message:
+    fieldName: revision_log_message
+    publicName: revision_log_message
     enhancer:
       id: ''
     disabled: false
-  status:
-    fieldName: status
-    publicName: status
+  enabled:
+    fieldName: enabled
+    publicName: enabled
     enhancer:
       id: ''
     disabled: false
-  info:
-    fieldName: info
-    publicName: info
+  title:
+    fieldName: title
+    publicName: title
+    enhancer:
+      id: ''
+    disabled: false
+  description:
+    fieldName: description
+    publicName: description
+    enhancer:
+      id: ''
+    disabled: false
+  menu_name:
+    fieldName: menu_name
+    publicName: menu_name
+    enhancer:
+      id: ''
+    disabled: false
+  link:
+    fieldName: link
+    publicName: link
+    enhancer:
+      id: ''
+    disabled: false
+  external:
+    fieldName: external
+    publicName: external
+    enhancer:
+      id: ''
+    disabled: false
+  rediscover:
+    fieldName: rediscover
+    publicName: rediscover
+    enhancer:
+      id: ''
+    disabled: false
+  weight:
+    fieldName: weight
+    publicName: weight
+    enhancer:
+      id: ''
+    disabled: false
+  expanded:
+    fieldName: expanded
+    publicName: expanded
+    enhancer:
+      id: ''
+    disabled: false
+  parent:
+    fieldName: parent
+    publicName: parent
     enhancer:
       id: ''
     disabled: false
   changed:
     fieldName: changed
     publicName: changed
-    enhancer:
-      id: ''
-    disabled: false
-  reusable:
-    fieldName: reusable
-    publicName: reusable
     enhancer:
       id: ''
     disabled: false
@@ -96,12 +138,6 @@ resourceFields:
   revision_translation_affected:
     fieldName: revision_translation_affected
     publicName: revision_translation_affected
-    enhancer:
-      id: ''
-    disabled: false
-  body:
-    fieldName: body
-    publicName: body
     enhancer:
       id: ''
     disabled: false

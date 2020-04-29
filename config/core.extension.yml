@@ -1,5 +1,6 @@
 module:
   automated_cron: 0
+  basic_auth: 0
   big_pipe: 0
   block: 0
   block_content: 0
@@ -13,6 +14,7 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -43,6 +45,7 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_bulk_operations: 0
   views_ui: 0
   menu_link_content: 1
   views: 10
